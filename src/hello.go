@@ -24,5 +24,21 @@ func main() {
   fmt.Println(b)
   fmt.Println(c)
   fmt.Println(d)
-
+  
+  arr := [6]string {"A","B","C","D","E","F"}
+  
+  //for loop
+  // for i := 0; i < 10; i++ {
+  //   fmt.Printf("The number is: %d\n", i)
+  // }
+  
+  // el is every element in the array
+  
+  for i, el := range arr {
+    fmt.Printf("My number = %d\n", i)
+    fmt.Printf("My counter = %s\n\n", e;)
+  }
+  
+  // fmt.Println(arr)
+  fmt.Printf("%v", arr)
 }
