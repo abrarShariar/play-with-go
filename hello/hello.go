@@ -36,7 +36,7 @@ func main() {
   
   for i, el := range arr {
     fmt.Printf("My number = %d\n", i)
-    fmt.Printf("My counter = %s\n\n", e;)
+    fmt.Printf("My counter = %s\n\n", el)
   }
   
   // fmt.Println(arr)
